@@ -15,6 +15,13 @@
                         <li><a href="/categories/daily" class="">일상 기록 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+            </ul> 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Kimchi" %}
+                        <li><a href="/categories/kimchi" class="">김치년 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
       </li>
       <li>
