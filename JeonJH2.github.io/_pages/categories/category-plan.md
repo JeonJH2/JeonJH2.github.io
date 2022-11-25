@@ -1,7 +1,7 @@
 ---
-title: "김치년 Posts"
+title: "Plan Posts"
 layout: archive
-permalink: categories/kimchi
+permalink: categories/plan
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Kimchi %}
+{% assign posts = site.categories.Plan %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
